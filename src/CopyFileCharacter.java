@@ -5,9 +5,9 @@ public class CopyFileCharacter {
         try {
             //Tao và thêm dữ liệu cho file
 
-//            BufferedWriter bufferedWriter=new BufferedWriter(new  FileWriter("input.txt"));
-//            bufferedWriter.write("Hello world");
-//            bufferedWriter.close();
+            BufferedWriter bufferedWriter=new BufferedWriter(new  FileWriter("input.txt"));
+            bufferedWriter.write("Hello world");
+            bufferedWriter.close();
 
             //check file tồn tại hay ko
             File file=new File("input.txt");
